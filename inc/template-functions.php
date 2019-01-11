@@ -3,6 +3,10 @@
  * Functions which enhance the theme by hooking into WordPress
  */
 
+function test(){
+	
+}
+
 //get title 
 function sp_get_title() {
 	if(is_home()) echo single_post_title();
