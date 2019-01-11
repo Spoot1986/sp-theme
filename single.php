@@ -4,13 +4,14 @@
  */
 
 get_header();
+$sp_obj = New SpClass();
 
 while ( have_posts() ) : the_post(); ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class('post');?>>
 		
 		<div class="entry-header">
-			<h1><?php sp_get_title();?></h1>
+			<h1><?php $sp_obj->get_title();?></h1>
 		</div>
 
 		<div class="entry-content">

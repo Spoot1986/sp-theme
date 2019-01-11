@@ -93,6 +93,9 @@ require get_template_directory() . '/inc/class-tgm-plugin-activation.php';
 require get_template_directory() . '/inc/custom-header.php';
 
 //Functions which enhance the theme by hooking into WordPress.
+require get_template_directory() . '/inc/sp-class.php';
+
+//Functions which enhance the theme by hooking into WordPress.
 require get_template_directory() . '/inc/template-functions.php';
 
 //Customizer additions.

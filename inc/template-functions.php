@@ -3,10 +3,7 @@
  * Functions which enhance the theme by hooking into WordPress
  */
 
-function test(){
-	
-}
-
+/*
 //get title 
 function sp_get_title() {
 	if(is_home()) echo single_post_title();
@@ -60,6 +57,8 @@ function sp_get_entry_meta() {
 
 	if($blog_date != '1' || $blog_tax != '1') echo '</div>';
 }
+
+*/
 
 //pagination 
 function sp_get_the_pagination(){
